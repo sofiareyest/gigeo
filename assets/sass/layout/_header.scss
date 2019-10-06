@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+}
+
+.bannerImage {
+    object-fit: cover;
+    object-position: 0 40%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.thumbnail__Image {
+    width: 10%;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.botones {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}

@@ -1,0 +1,47 @@
+.navigation {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigation__logo {
+    float: left;
+    margin: 1rem;
+    padding: 0;
+    width: 150px;
+}
+
+.navbar__menu {
+    padding-right: 5rem;
+    overflow: hidden;
+    float: right;
+    display: flex;
+    input {
+        display: block;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+}
+
+.navigation__item {
+    display: inline-block;
+    margin: 1rem;
+    a {
+        text-align: left;
+        text-decoration: none;
+        margin: 1rem;
+        text-decoration: none;
+        color: black;
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.positionBurger {
+    margin: 2rem;
+}

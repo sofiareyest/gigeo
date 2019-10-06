@@ -1,0 +1,22 @@
+.pagination {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: $nickel;
+    &__container {
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: 0 auto;
+        // background: green;
+        overflow: hidden;
+        text-align: center;
+    }
+    &__logo {
+        width: 150px;
+        height: auto;
+        overflow: hidden;
+        margin: 0 5;
+        // background: pink;
+    }
+}
